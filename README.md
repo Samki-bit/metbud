@@ -1,12 +1,39 @@
-# React + Vite
+# 🎼 MetBud — Web-Based Metronome & Instrument Tuner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MetBud is a responsive web application combining a precision metronome and a real-time instrument tuner. Designed for musicians and music learners, it leverages the Web Audio API and modern web technologies to deliver accurate audio processing in the browser.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+✅ Real-time pitch detection using microphone input  
+✅ Customizable BPM metronome with precise audio timing  
+✅ Built with React and Tailwind for a responsive UI  
+✅ Uses Web Audio API for all audio signal processing  
+✅ Lightweight and installable as a PWA (coming soon)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Frontend Framework)  
+- **Tailwind CSS** (Styling)  
+- **Vite** (Build tool)  
+- **Web Audio API** (Audio input & playback)
+
+---
+
+## 📂 Dataset / Input
+
+🎤 Microphone input is used for pitch detection (Tuner)  
+🕒 User-defined BPM input drives metronome playback
+
+---
+
+## 🧪 Running Locally
+
+```bash
+git clone https://github.com/Samki-bit/metbud.git
+cd metbud
+npm install
+npm run dev
